@@ -24,3 +24,11 @@ h1 {
   /* border: solid gray 1px; */
   outline: solid gray 1px;
 }
+
+/* .box:hover {
+  background-color: black;
+} */
+
+.blackBG {
+  background-color: black;
+}
