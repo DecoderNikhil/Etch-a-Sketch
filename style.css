@@ -1,7 +1,26 @@
+body {
+  background: rgba(20, 20, 20, 0.856);
+  text-align: center;
+}
+
+h1 {
+  color: white;
+}
+
 .container {
   width: 600px;
   height: 600px;
-  border: solid blue 1px;
-  margin: 10px auto;
-  padding: 10px;
+  border: solid yellowgreen 1px;
+  margin: auto;
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  /* box-sizing: border-box; */
+  height: calc(600px / 16);
+  width: calc(600px / 16);
+  /* border: solid gray 1px; */
+  outline: solid gray 1px;
 }
